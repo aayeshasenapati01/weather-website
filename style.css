@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+background-repeat: no-repeat;
+overflow: hidden;
+height: 100vh;
+background-size: cover;
+}
+.container{
+    padding-top: 5px;
+}
+.card{
+    opacity: 75%;
+    border:2px solid white;
+    width: 340px;
+    padding-right: 40px;
+    }
+.my--4{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:white;        
+        font-family: 'Bree Serif', serif;
+        font-size: 50px;
+        font-style: italic;
+        font-weight: bolder;
+}
+.current-info{
+        display: flex;
+        justify-content: space-between;
+    
+}
+.date-time{
+        text-align: right;
+        font-size: 40px;
+        padding: 20px 70px;
+        font-family: 'Caprasimo', cursive;
+        font-size: 45px;
+        color: white;
+}
+.date-time #am-pm{
+        font-size: 30px;
+        margin-left: 20px;
+}
+.today-forecast{
+    background-color: black;
+    opacity: 75%;
+    padding:18px;
+    margin-top: 10px;
+    display: flex;
+    color:white;
+    align-items: top;
+    justify-content: center;
+    
+}
+.forecast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 35px;
+    border:1px solid;
+    border-radius: 10px;
+    padding: 1px;
+    width: 250px;
+    height: auto;
+    background-color: white;
+    color: black;
+}
+#img{
+    max-width: 90%;
+    max-height: 90%;
+    padding-left: 20px;
+    
+}
+.temp{
+    font-size: 60px;
+}
+.current-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.min-max{
+    padding-left:80px;
+    font-size: 25px;   
+    font-family: 'Vollkorn', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.items{
+    font-size: 18px;
+    font-family: 'Vollkorn', serif;
+    
+    font-weight: bold;
+}
+#img1{
+    width:130px;
+}
+#img2{
+    width:140px;
+}
+@media only screen and (max-width:730px){
+    .container{
+        padding: 5x;
+    }
+    #img{
+        max-width:90%;
+        max-height: 90%;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .my--4{
+        font-size: 40px;
+    }
+    .min-max{
+        font-size: 25px;
+        padding: 0px;
+        /* margin-right: 0px; */
+        text-align: right;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .text-muted{
+        font-size: 30px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .temp{
+        font-size: 50px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .card{
+        width:200px;
+        height:auto;
+        padding:5px;
+        padding-bottom: 0px;
+    }
+    .date-time{
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    .date-time #am-pm{
+        font-size: 12px;
+    }
+    .today-forecast{
+        justify-content: start;
+        align-items: none;
+        overflow-y: scroll;
+        width:900px;
+        height:300px;
+        margin-top: 70px;
+    }
+    #img1{
+        width:100px;
+    }
+    #img2{
+        width: 120px;
+    }
+    .forecast{
+        font-size: 12px;
+        text-align: center;
+        margin-left: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ }
